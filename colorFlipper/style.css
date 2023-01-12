@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 1px;
+  overflow: hidden;
+}
+
+.navBar {
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  justify-content: space-evenly;
+  box-shadow: 10px 10px 8px #888888;
+  cursor: pointer;
+}
+
+.nav1 {
+  color: rgb(6, 85, 85);
+}
+
+.buttonw {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+}
+
+.b1 {
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  width: 139px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
